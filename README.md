@@ -1,2 +1,2 @@
 # odin-recipes
-this is the first project on odin project web to learn frontend and i'm just practicing my html skills here nothing more needed
+this is a simple recipes page using only HTML to practice some HTML  tags 
