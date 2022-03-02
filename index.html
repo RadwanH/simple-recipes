@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>MyFood</title>
+
 </head>
 <body>
     <header>
-       <h1> <a href="/index.html" style="text-decoration: none;">My Recipes</a></h1> 
+       <h1> <a href="/index.html">My Recipes</a></h1> 
     </header>
 
     
     <img src="images/recipes.jpg" alt="recipes" width="50%">
-    <h2>My favorite recipes </h2>
-    <ul>
-        <li><a href="/recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="/recipes/pizza.html">Pizza</a></li>
-        <li><a href="/recipes/shawarma.html">Shawarma</a> </li>
+    
+    <section class="foods">
+        <h2>My favorite recipes </h2>
+        <a class="link" href="/recipes/lasagna.html"><div>Lasagna</div></a>
+        <a class="link" href="/recipes/pizza.html"><div>Pizza</div></a>
+        <a class="link" href="/recipes/shawarma.html"><div>Shawarma</div></a> 
 
-    </ul>
+    </section>
 
-    <a href="#">Go UP</a>
+    
 
     <footer>
+        <div class="go-up">
+            <a href="#"> up<i class="fa-solid fa-up"></i></a>
+        </div>
         <br> <br> <br><br>
     </footer>
 
